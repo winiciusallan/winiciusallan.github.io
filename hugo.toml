@@ -3,8 +3,11 @@ languageCode = 'en-us'
 title = 'Winicius Allan'
 defaultContentLanguage = 'en'
 enable_emoji = true
-
 theme = 'hugo-coder'
+
+[caches]
+[[caches.images]]
+dir = ':cacheDir/images'
 
 [params]
 author = "Winicius Allan"
