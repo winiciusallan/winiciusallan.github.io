@@ -1,0 +1,68 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Winicius Allan'
+defaultContentLanguage = 'en'
+enable_emoji = true
+
+theme = 'hugo-coder'
+
+[params]
+author = "Winicius Allan"
+description = "Winicius Allan's personal website"
+keywords = "blog,developer,personal"
+info = ["Computer Science", "Student"]
+#avatarURL = "images/avatar.jpg"
+gravatar = "winiciusab12@gmail.com"
+colorScheme = "auto"
+since = 2025
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/winiciusallan/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/winiciusbezerra/"
+
+[[params.social]]
+name = "Gmail"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 4
+url = "mailto:winiciusab12@gmail.com"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[languages.pt-br]
+languageName = ":brazil:"
+title = "Winicius Allan"
+
+[languages.pt-br.params]
+author = "Winicius Allan"
+info = ["Computer Science", "Student"]
+description = "Sítio pessoal de João Ninguém"
+keywords = "blog,desenvolvedor,pessoal"
+
+[[languages.pt-br.menu.main]]
+name = "Sobre"
+weight = 1
+url = "about/"
+
+[[languages.pt-br.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
