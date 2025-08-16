@@ -13,7 +13,7 @@ dir = ':cacheDir/images'
 author = "Winicius Allan"
 description = "Winicius Allan's personal website"
 keywords = "blog,developer,personal"
-info = ["Computer Science", "Student"]
+info = ["CS Undergrad", "and SRE"]
 #avatarURL = "images/avatar.jpg"
 gravatar = "winiciusab12@gmail.com"
 colorScheme = "auto"
@@ -49,6 +49,11 @@ url = "about/"
 name = "Blog"
 weight = 2
 url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
 
 [languages.pt-br]
 languageName = ":brazil:"
